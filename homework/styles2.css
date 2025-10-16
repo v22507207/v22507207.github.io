@@ -1,0 +1,175 @@
+*{
+    margin: 0%;
+    padding: 0%;;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    
+    font-family: "Noto Sans TC", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f1dd;
+    color: #333;
+  }
+
+  /* 導覽列 */
+  .navbar {
+    background-color: #fbf1d0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-bottom:  5px; ;
+    padding-top: 8px;
+   }
+
+    .site-title {
+        padding: 0%;
+    }
+        
+
+    .navbar h1 {
+        font-size: 32px;
+        color: #444;
+    }
+
+    .nav-links {
+        font-size: 19px;
+        display: flex;
+        gap: 100px;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: #666;
+        padding: 15px 10px;
+        transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+        color: #ff8a65;
+    }
+
+    .site-title {
+        text-decoration: none;
+        color: #444;
+        transition: color 0.3s;
+    }
+    
+    .site-title:hover {
+        color: #ff8a65;
+    }
+
+    .nav-icons {
+        display: flex;
+        gap: 25px;
+        padding-right: 15px;
+    }
+
+    .nav-icons a {
+        color: #666;
+        font-size: 15px;
+        transition: color 0.3s;
+    }
+
+    .nav-icons a:hover {
+        color: #ff8a65;
+    }
+
+
+/* 主要內容區域 */
+
+    .bigtou {
+      padding: 0%;
+    }
+    
+
+    .page1{
+        margin-bottom: 50px;
+        padding: 40px;
+        padding-left: 120px;
+        background-color: #f7e29c;
+        font-size: 30pt;
+        height: 72vh;
+    }
+/* -page2- */
+        .page2{
+            font-size: 50px;
+            height: 80vh;
+            margin-bottom: 0px;
+            padding-top: 150px;
+            text-align: center;
+        }
+        .page2-1{
+            margin-bottom: 90px;
+        }
+
+        .page2-1 .item {
+            display: flex;
+            gap: 100px;
+            justify-content: center;
+        }
+          
+        .page2-1 .item .p1{
+            width: 380px;
+            height:380px;
+            border-radius: 99em;
+            object-fit: cover;
+        }
+
+        .page2-1 h1 {
+            font-size: 20px;
+            margin-top: 50px;
+        }
+        
+        .page2-2 {
+            text-align: center;
+            padding-bottom: 80px;
+            display: flex;
+            justify-content: center;
+            gap: 150px;
+        }
+        .page2-2 .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .page2-2 h2 {
+            font-size: 20px;
+            margin-top: 30px;
+        }
+        .page2-2 .item .p1{
+            width: 150px;
+            height:150px;
+            border-radius: 99em;
+            object-fit: cover;
+        }
+
+        .page2-3 {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 165px;
+            padding-bottom: 80px;
+        }
+
+        .page2-3 .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .page2-3 h2 {
+            font-size: 20px;
+            margin-top: 30px;
+        }
+        .page2-3 .item .p1{
+            width: 150px;
+            height:150px;
+            border-radius: 99em;
+            object-fit: cover;
+        }
